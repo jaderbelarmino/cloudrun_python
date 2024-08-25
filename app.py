@@ -29,9 +29,9 @@ def hello() -> str:
     logger.info(logField="custom-entry", arbitraryField="custom-entry")
 
     # https://cloud.google.com/run/docs/logging#correlate-logs
-    logger.info("Child logger with trace Id.")
+    logger.info("Child logger with trace Id. !!!")
 
-    return "Hello, World!"
+    return "Hello, jader!"
 
 
 def shutdown_handler(signal_int: int, frame: FrameType) -> None:
